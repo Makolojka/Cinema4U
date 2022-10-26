@@ -1,0 +1,135 @@
+body
+{
+    background: url("../assets/bg/bg4.jpg");
+}
+
+#main
+{
+    /*background: url("../assets/bg/bg4.jpg");*/
+}
+
+#priceBg
+{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#priceTag
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.priceTagRow
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+#priceTag p
+{
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.description
+{
+}
+
+.lineS
+{
+    width: 800px;
+    border-bottom: 3px solid #D08831;
+}
+
+#priceTagTypes
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#priceTagTypes .priceButton
+{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px 40px;
+    width: 150px;
+    text-align: center;
+}
+
+#priceTagPrices
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#priceTagPrices .priceButton
+{
+    font-size: 30px;
+    color: white;
+    background-color: #8C8C8C;
+    border-radius: 10px;
+    margin: 20px 40px;
+    width: 150px;
+    text-align: center;
+}
+
+#priceTagCheap
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#priceTagCheap .priceButton
+{
+    font-size: 30px;
+    color: white;
+    background-color: #D08831;
+    border-radius: 10px;
+    margin: 20px 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.divColumn
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 35%;
+}

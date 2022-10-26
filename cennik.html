@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema4U</title>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_cennik.css">
+    <link rel="icon" href="assets/logo/cinema4u-logo_transparent.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+<header>
+    <a href="#" class="logo"><img id="logo" src="assets/logo/cinema4u-logo_transparent.png"></a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repertuar.html">Repertuar</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="#">Promocje</a></li>
+        <li><a href="#">Newsy</a></li>
+        <li><a href="#">O kinie</a></li>
+        <li><a href="#">Szkoły</a></li>
+    </ul>
+</header>
+
+<div id="main">
+
+    <div id="priceBg">
+        <div id="priceTag">
+            <div class="priceTagRow">
+                <div class="description">
+                    <p>Cennik</p>
+                </div>
+                <div class="description">
+                    <p>Pon. - Pt. </p>
+                    <p> oraz Ndz.</p>
+                </div>
+                <div class="description">
+                    <p><span>Tanie</span> soboty</p>
+                </div>
+            </div>
+        </div>
+        <div class="lineS"><p></p></div>
+
+        <div class="divColumn">
+            <div id="priceTagTypes">
+                <div class="priceButton">Ulgowy</div>
+                <div class="priceButton">Normalny</div>
+                <div class="priceButton">VIP</div>
+            </div>
+            <div id="priceTagPrices">
+                <div class="priceButton">17,90</div>
+                <div class="priceButton">21,90</div>
+                <div class="priceButton">25,90</div>
+            </div>
+            <div id="priceTagCheap">
+                <div class="priceButton">15,90</div>
+                <div class="priceButton">15,90</div>
+                <div class="priceButton">19,90</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerPartners">
+
+        <div class="partnersDiv">
+            <p class="partnersP">Znajdziesz nas na</p>
+            <p class="line"></p>
+            <div class="rowIcon">
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+            <p class="partnersP">Kontakt</p>
+            <p class="line"></p>
+            <div class="credentials">
+                <span>Lokalizacja. ul. Krakowska 149/154</span>
+                <span>Galeria Tarnovia, 33-100 Tarnów</span>
+                <span>Tel. 394 284 456</span>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+                <p class="partnersP">Partnerzy</p>
+                <p class="line"></p>
+            <div class="credentials">
+                <a href="https://www.dolby.com/"><img src="assets/icony/dolby_grey.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">© Copyright 2022 Cinema4U | Marcin Król | Kamil Chwistek</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+</body>
+
+</html>

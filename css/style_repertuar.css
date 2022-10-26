@@ -1,0 +1,175 @@
+#dateChoice
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#dateChoice .underlinedDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+.lineS
+{
+    width: 800px;
+    border-bottom: 3px solid #D08831;
+}
+
+#rep
+{
+    color: white;
+    font-size: 30px;
+}
+
+#dates
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 600px;
+}
+
+.buttonDate
+{
+    background-color: #D08831;
+    margin: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+.buttonDate:hover
+{
+    background-color: #ffc980;
+    transition: .3s ease-in-out;
+}
+
+.buttonDate a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.repertuarDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.poster
+{
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+}
+
+.repertuarText
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    align-content: center;
+    color: white;
+    margin: 10px 30px;
+    width: 800px;
+    height: 400px;
+}
+
+.avaibility
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.repP
+{
+    color: #D08831;
+    font-weight: bold;
+}
+
+.repertuarText h2 p
+{
+    font-size: 20px;
+}
+
+.repertuarDiv p
+{
+    margin: 5px 0 10px 0;
+}
+
+.wrapper
+{
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper img
+{
+
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+.cont
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.cont a{
+    font-size: 12px;
+    display: block;
+    background-color: #ff771d;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.overlay
+{
+    opacity: 0;
+}
+.wrapper:hover img
+{
+    opacity: .5;
+}
+.wrapper:hover .overlay
+{
+    opacity: 1;
+}

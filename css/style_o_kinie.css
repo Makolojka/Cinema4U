@@ -1,0 +1,92 @@
+.imageCinema
+{
+    width: 600px;
+    height: 350px;
+}
+
+/*.imageDolby*/
+/*{*/
+/*    width: 500px;*/
+/*    height: 250px;*/
+/*}*/
+
+.columnDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.rowDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.contentText
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    align-content: center;
+    color: white;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.contentText p
+{
+    margin: 0;
+}
+.contentText h2
+{
+    margin: 0;
+    color: #D08831;
+}
+
+.dolby
+{
+    width: 800px;
+}
+
+.imageDolby
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 900px;
+    height: 450px;
+}
+
+.dolbyText
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    margin: 10px;
+}
+
+.dolby h2
+{
+    margin: 0;
+    color: #D08831;
+}
+

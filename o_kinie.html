@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema4U</title>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_o_kinie.css">
+    <link rel="icon" href="assets/logo/cinema4u-logo_transparent.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+<header>
+    <!--    <div class="mainDivs">-->
+    <a href="index.html" class="logo"><img id="logo" src="assets/logo/cinema4u-logo_transparent.png"></a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repertuar.html">Repertuar</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="promocje.html">Promocje</a></li>
+        <li><a href="#">Newsy</a></li>
+        <li><a href="o_kinie.html">O kinie</a></li>
+        <li><a href="#">Szkoły</a></li>
+    </ul>
+    <!--    </div>-->
+</header>
+<section class="banner">
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/img/gemini21.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/img/gemini22.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/img/gemini23.jpg"></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<div id="main">
+    <div class="columnDiv">
+        <div class="rowDiv">
+            <div class="contentText">
+                <h2>CINEMA4U W GALERI Gemini:</h2>
+                <p>3 klimatyzowane sale</p>
+                <p>600 komfortowych miejsc</p>
+                <p>system dźwięku przestrzennego Dolby ATMOS</p>
+                <p>sale przystosowane do obsługi osób niepełnosprawnych</p>
+                <p>technika kinowa oparta na cyfrowych projektorach 2D</p>
+                <p>projekcje 3D w najnowocześniejszej technologii DepthQ</p>
+            </div>
+            <div class="contentImg">
+                <img src="assets/img/geminiulotka2.jpg" class="imageCinema">
+            </div>
+        </div>
+
+        <div class="rowDiv">
+            <div class="contentText">
+                <h2>Komfortowe fotele</h2>
+                <p>Dla wygody widzów sale kinowe wyposażane są w fotele wykonane z materiałów wysokiej jakości. Wygoda siedzenia połączona z funkcjonalnością użytkowania zapewnia wysoki komfort.
+                    Wszystkie fotele posiadają zagłówki, a w podłokietnikach znajdują się uchwyty na popcorn i colę. Dla najbardziej wymagających widzów w kinie w Gdańsku oddano do dyspozycji wyjątkowo komfortowe, skórzane w pełni regulowane fotele VIP, jakich nie można spotkać w żadnym innym kinie.
+                </p>
+            </div>
+            <div class="contentImg">
+                <img src="assets/img/cinemaorange.jpg" class="imageCinema">
+            </div>
+        </div>
+    </div>
+
+    <div class="columnDiv">
+            <div>
+                <img src="assets/img/dolbyatmos.jpg" class="imageDolby">
+            </div>
+            <div class="dolbyText">
+                <div class="dolby">
+                    <h2>System dźwięku przestrzennego DOLBY ATMOS</h2>
+                    <p>Nowoczesne kino nie może się dziś obejść bez doskonałej jakości dźwięku.
+                        Obiekt CINEMA4U, jako pierwszy zachwyci widzów zaawansowanym system dźwiękowym–Dolby ATMOS.
+                        Jest to rozwiązanie, w którym każdy głośnik może w tym samym czasie odtworzyć zupełnie inne dźwięki, dzięki czemu projekcja filmu oddziałuje na widza nie tylko obrazem, ale i pełną przestrzennością dźwięku.
+                        Głośniki w systemie Dolby Atmos, znajdują się zarówno z przodu z tyłu oraz na suficie sali kinowej, tworząc tym samym otaczającą widzów głębią dźwięku.</p>
+                </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <div class="footerPartners">
+
+        <div class="partnersDiv">
+            <p class="partnersP">Znajdziesz nas na</p>
+            <p class="line"></p>
+            <div class="rowIcon">
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+            <p class="partnersP">Kontakt</p>
+            <p class="line"></p>
+            <div class="credentials">
+                <span>Gemini Park Tarnów</span>
+                <span>Nowodąbrowska 127, 33-100 Tarnów</span>
+                <span>Tel. 394 284 456</span>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+                <p class="partnersP">Partnerzy</p>
+                <p class="line"></p>
+            <div class="credentials">
+                <a href="https://www.dolby.com/"><img src="assets/icony/dolby_grey.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">© Copyright 2022 Cinema4U | Marcin Król | Kamil Chwistek</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+</body>
+
+</html>

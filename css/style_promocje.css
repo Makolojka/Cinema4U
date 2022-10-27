@@ -1,0 +1,40 @@
+.lineS
+{
+    margin-top: 60px;
+    width: 800px;
+    border-bottom: 3px solid #D08831;
+}
+
+#main
+{
+    margin-top: 100px;
+}
+
+.contentImg
+{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.contentImg:hover
+{
+    transform: scale(0.995);
+    transition: transform 0.5s ease-in-out;
+}
+
+.contentText
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    align-content: center;
+    color: white;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+}

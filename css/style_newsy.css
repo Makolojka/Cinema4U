@@ -1,0 +1,141 @@
+.lineUp
+{
+    width: 600px;
+    border-bottom: 2px solid #D08831;
+}
+
+.lineDown
+{
+    width: 150px;
+    text-align: left;
+    border-bottom: 2px solid #D08831;
+    margin-left: 10px;
+}
+
+.newsDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    /*margin-top: 50px;*//*  Margin pod banerem  */
+}
+
+.latestNews
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 100%;
+    background: url("../assets/bg/bg4.jpg") fixed center;
+}
+
+.rowDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.rowDivL
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-left: 15%;
+}
+
+.rowDiv img
+{
+    width: 300px;
+    height: auto; /*Img muszą mieć te same rozmiary inaczej zmienić*/
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.rowDivL img
+{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.latestNews .newsTextDiv
+{
+    width: 600px;
+    height: auto;
+    color: white;
+    /*margin-left: 20px;*/
+}
+
+.rowDiv .newsTextDiv
+{
+    width: 300px;
+    height: auto;
+    color: white;
+    /*margin-left: 20px;*/
+}
+
+.rowDiv .newsTextDiv p
+{
+   font-size: 12px;
+}
+
+.latestNews .newsTextDiv
+{
+    margin-left: 30px;
+}
+
+.buttonNews
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.NEWS
+{
+    background-color: #D08831;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0px 2px;
+}
+
+.more a
+{
+    text-decoration: none;
+    color: #8C8C8C;
+    transition: 0.5s ease-in-out;
+}
+
+.more a:hover
+{
+    color: #D08831;
+    transition: 0.5s ease-in-out;
+}
+
+.news
+{
+    margin: 60px 50px;
+}
+
+.latestNews
+{
+    font-size: 20px;
+}
+
+.latestNews .rowDivL .newsTextDiv .buttonNews .NEWS
+{
+    font-size: 20px;
+}

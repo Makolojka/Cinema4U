@@ -8,6 +8,11 @@ body
     /*width: 100%;*/
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /*Paleta kolorów:
 black / #EB7221 / white
 pomarańczowy main: #D08831
@@ -31,6 +36,9 @@ p
 
 .banner
 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     /*background: url("../assets/films/ad2.jpg");*/
     /*background-size: cover;*/
 }
@@ -162,7 +170,8 @@ header a:hover
     align-items: center;
     align-content: center;
     /*border: 1px solid red;*/
-    background-color: black;
+    /*background-color: black;*/
+    background: url("../assets/bg/bg4.jpg") fixed center;
     color: #D08831;
     margin-top: 60px;
 }
@@ -243,6 +252,7 @@ header a:hover
     margin: 20px;
     width: 600px;
     height: 400px;
+    border-radius: 5px;
     transition: transform 0.5s ease-in-out;
 }
 

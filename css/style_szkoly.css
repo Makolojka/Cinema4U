@@ -1,0 +1,113 @@
+#main
+{
+    margin-top: 20px;
+}
+
+.deals
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.lineUp
+{
+    min-width: 600px;
+    border-bottom: 2px solid #D08831;
+}
+
+.lineDown
+{
+    min-width: 400px;
+    border-bottom: 1px solid #D08831;
+}
+
+.dealsRow
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.dealsRow img
+{
+    width: 480px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.dealsRow img:hover
+{
+    transform: scale(0.99);
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.dealsImg
+{
+    width: 500px;
+}
+
+.dealsText
+{
+    width: 500px;
+    justify-content: flex-start;
+}
+
+.dealsText h3
+{
+    color: #D08831;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.pdfs
+{
+    margin-top: 60px;
+}
+
+.buttonRow
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    background-color: #D08831;
+    margin: 20px 40px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover
+{
+    background-color: #ffb245;
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema4U</title>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_news.css">
+    <link rel="icon" href="assets/logo/cinema4u-logo_transparent.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" class="logo"><img id="logo" src="assets/logo/cinema4u-logo_transparent.png"></a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repertuar.html">Repertuar</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="promocje.html">Promocje</a></li>
+        <li><a href="newsy.html">Newsy</a></li>
+        <li><a href="o_kinie.html">O kinie</a></li>
+        <li><a href="#">Szkoły</a></li>
+    </ul>
+</header>
+
+<section class="banner">
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/films/ad2.jpg"></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<div id="main">
+    <div class="mainDivText">
+            <div class="contentText">
+                <h3><mark class="newsy_mark">NEWS</mark> 24 paź 2022 </h3>
+                <h1>Fuzja smaków w Święto Kina!</h1>
+                <h2>
+                    Po trzyletniej przerwie Święto Kina wraca na mapę filmowych wydarzeń.
+                    Ostatnia niedziela października to świetna okazja, aby nadrobić kinowe zaległości.
+                    Z tej okazji razem z The Coca Cola Company przygotowaliśmy specjalną, odświeżającą promocję.
+                    Każda osoba, która zakupi 30 października w kinowym popcorn barze Zestaw Dla Dwojga w dowolnym wariancie
+                    (popcorn albo nachos + dwa wybrane napoje) otrzyma butelkę FuzeTea 0,5 L gratis.
+                    </h2>
+                <p>
+                    Święto Kina to ogólnopolska akcja, w której udział biorą największe sieci kin, a także minipleksy oraz kina jednosalowe.
+                    Jej ideą jest upowszechnianie sztuki filmowej, szerzenie kinematografii, a przede wszystkim promowanie kina jako rozrywki dostępnej dla wszystkich.
+                    To niepowtarzalna okazja, aby zobaczyć premierowe filmy i bieżący repertuar na dużym ekranie.
+                    Tego dnia można nadrobić kinowe zaległości za jedyne 10 złotych (plus opłata serwisowa w przypadku zakupu online).
+
+
+                <br><br><br>
+                    Przyjdź 30 października do CINEMA4U, kup zestaw Dla Dwojga, odbierz swoją Fuze Tea i zatrać się w niezwykłych filmowych opowieściach.
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footerPartners">
+
+        <div class="partnersDiv">
+            <p class="partnersP">Znajdziesz nas na</p>
+            <p class="line"></p>
+            <div class="rowIcon">
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+            <p class="partnersP">Kontakt</p>
+            <p class="line"></p>
+            <div class="credentials">
+                <span>Gemini Park Tarnów</span>
+                <span>Nowodąbrowska 127, 33-100 Tarnów</span>
+                <span>Tel. 394 284 456</span>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+                <p class="partnersP">Partnerzy</p>
+                <p class="line"></p>
+            <div class="credentials">
+                <a href="https://www.dolby.com/"><img src="assets/icony/dolby_grey.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">© Copyright 2022 Cinema4U | Marcin Król | Kamil Chwistek</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+</body>
+
+</html>

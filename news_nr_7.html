@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema4U</title>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_news.css">
+    <link rel="icon" href="assets/logo/cinema4u-logo_transparent.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+<header>
+    <a href="index.html" class="logo"><img id="logo" src="assets/logo/cinema4u-logo_transparent.png"></a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repertuar.html">Repertuar</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="promocje.html">Promocje</a></li>
+        <li><a href="newsy.html">Newsy</a></li>
+        <li><a href="o_kinie.html">O kinie</a></li>
+        <li><a href="#">Szkoły</a></li>
+    </ul>
+</header>
+
+<section class="banner">
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/films/ad2.jpg"></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<div id="main">
+    <div class="mainDivText">
+            <div class="contentText">
+                <h3><mark class="newsy_mark">NEWS</mark> 21 paź 2022 </h3>
+                <h1>Gotowi na weekend Coca Cola w CINEMA4U?</h1>
+                <h2>
+                    Czy wiesz już na jaki seans filmowy wybierzesz się do CINEMA4U między 28 a 30 października?
+                    Jeśli tak, to pamiętaj o weekendzie z Coca Cola! Kup duży zestaw z Coca Colą i odbierz bilet na dowolny film z listopadowego repertuaru!
+                    </h2>
+                <p>
+                    Już w ten weekend w kinach sieci CINEMA4U premierowo można będzie zobaczyć polską komedię „Bejbis” z Martą Żmudą Trzebiatowską i
+                    Grzegorzem Małeckim w rolach głównych oraz produkcję DC „Black Adam”, a 28 października na wielki ekran wejdą trzy horrory:
+                    „Egzorcyzmy siostry Ann”, „Halloween. Finał” oraz „Goście”. Ponadto w repertuarze nadal można znaleźć „Johnnego” o ks. Kaczkowskim i
+                    film dokumentalny „Ania” o Annie Przybylskiej. Jeśli wybierzesz się do kina między 28 a 30 października br. to skorzystaj z weekendu Coca Cola!
+                    Osoby, które podczas wizyty w kinie kupują duży zestaw z Coca Colą otrzymają voucher, który od 1 do 30 listopada br.
+                    będzie można wymienić na bilet na dowolny film z naszego repertuaru.
+
+
+                <br><br><br>
+                    Jakie filmy w listopadzie będzie można zobaczyć w CINEMA4U? W premierowym repertuarze znajdą się między innymi:
+                    komedia „Listy do M. 5”, film anime „One Piece Film: Red”, najnowsza produkcja Marvela „Czarna Pantera: Wakanda w moim sercu”,
+                    dwa polskie filmy „Chrzciny” i „Nie cudzołóż i nie kradnij” oraz animacja Disney’a „Dziwny świat”.
+                <br><br><br>
+
+                    Bilet nabyty między 28 a 30 października br. nie będzie podlegał wymianie na wydarzenia specjalne.
+                    Regulamin akcji oraz szczegółowy repertuar są dostępne na naszej stronie www i w aplikacji mobilnej.
+                <br><br><br>
+
+                    Do zobaczenia w CINEMA4U!
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footerPartners">
+
+        <div class="partnersDiv">
+            <p class="partnersP">Znajdziesz nas na</p>
+            <p class="line"></p>
+            <div class="rowIcon">
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+            <p class="partnersP">Kontakt</p>
+            <p class="line"></p>
+            <div class="credentials">
+                <span>Gemini Park Tarnów</span>
+                <span>Nowodąbrowska 127, 33-100 Tarnów</span>
+                <span>Tel. 394 284 456</span>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+                <p class="partnersP">Partnerzy</p>
+                <p class="line"></p>
+            <div class="credentials">
+                <a href="https://www.dolby.com/"><img src="assets/icony/dolby_grey.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">© Copyright 2022 Cinema4U | Marcin Król | Kamil Chwistek</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+</body>
+
+</html>

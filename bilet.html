@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema4U</title>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_bilet.css">
+    <link rel="icon" href="assets/logo/cinema4u-logo_transparent.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+<header>
+    <a href="index.html" class="logo"><img id="logo" src="assets/logo/cinema4u-logo_transparent.png"></a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repertuar.html">Repertuar</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="promocje.html">Promocje</a></li>
+        <li><a href="newsy.html">Newsy</a></li>
+        <li><a href="o_kinie.html">O kinie</a></li>
+        <li><a href="szkoly.html">Szkoły</a></li>
+    </ul>
+</header>
+
+<div id="main">
+
+    <div id="banner">
+        <div><img id="filmImg" src="assets/films/blackadam2.jpg"></div>
+        <div id="bannerText">
+            <div class="row"><p>ZAKUP BILETU NA</p><p id="bannerTitle">Nazwa filmu</p></div>
+            <p id="bannerDesc">Blisko 5000 lat, po tym jak został obdarowany mocami egipskich bogów i zniewolony, Black Adam zostaje uwolniony ze swojego ziemskiego grobu, gotowy wyzwolić swoją wyjątkową formę sprawiedliwości we współczesnym świecie.</p>
+            <p id="bannerDate">Pon. 31.10.2022,  godz. 15:00</p>
+        </div>
+    </div>
+
+    <div class="title">
+        <h2>Wybierz miejsca</h2>
+        <p class="lineDown"></p>
+    </div>
+
+    <div id="seatsChooser">
+        <div id="room"><p id="roomName">sala 2</p></div>
+        <div class="columnSeat">
+            <div class="rowSeat">
+<!--                <div id="10" class="seatCheap">1</div>-->
+                <div id="11" class="seat seatDisabled">2</div>
+                <div id="12" class="seat">3</div>
+                <div id="13" class="seat">4</div>
+                <div id="14" class="seat">5</div>
+                <div id="15" class="seat">6</div>
+                <div id="16" class="seat">7</div>
+                <div id="17" class="seat">8</div>
+                <div id="18" class="seat">9</div>
+                <div id="19" class="seat">10</div>
+                <div id="110" class="seat">11</div>
+                <div id="111" class="seat">12</div>
+                <div id="112" class="seat">13</div>
+                <div class="rowNumberDisabled">1.</div>
+            </div>
+            <div class="rowSeat">
+                <div id="20" class="seat">1</div>
+                <div id="21" class="seat">2</div>
+                <div id="22" class="seat">3</div>
+                <div id="23" class="seat">4</div>
+                <div id="24" class="seat">5</div>
+                <div id="25" class="seat">6</div>
+                <div id="26" class="seat">7</div>
+                <div id="27" class="seat">8</div>
+                <div id="28" class="seat">9</div>
+                <div id="29" class="seat">10</div>
+                <div id="210" class="seat">11</div>
+                <div id="211" class="seat">12</div>
+                <div id="212" class="seat">13</div>
+                <div class="rowNumber">2.</div>
+            </div>
+            <div class="rowSeat">
+                <div id="30" class="seat seatNormal">1</div>
+                <div id="31" class="seat seatNormal">2</div>
+                <div id="32" class="seat seatNormal">3</div>
+                <div id="33" class="seat seatNormal">4</div>
+                <div id="34" class="seat seatNormal">5</div>
+                <div id="35" class="seat seatNormal">6</div>
+                <div id="36" class="seat seatNormal">7</div>
+                <div id="37" class="seat seatNormal">8</div>
+                <div id="38" class="seat seatNormal">9</div>
+                <div id="39" class="seat seatNormal">10</div>
+                <div id="310" class="seat seatNormal">11</div>
+                <div id="311" class="seat seatNormal">12</div>
+                <div id="312" class="seat seatNormal">13</div>
+                <div class="rowNumber">3.</div>
+            </div>
+            <div class="rowSeat">
+                <div id="40" class="seat">1</div>
+                <div id="41" class="seat">2</div>
+                <div id="42" class="seat">3</div>
+                <div id="43" class="seat">4</div>
+                <div id="44" class="seat">5</div>
+                <div id="45" class="seat">6</div>
+                <div id="46" class="seat">7</div>
+                <div id="47" class="seat">8</div>
+                <div id="48" class="seat">9</div>
+                <div id="49" class="seat">10</div>
+                <div id="410" class="seat">11</div>
+                <div id="411" class="seat">12</div>
+                <div id="412" class="seat">13</div>
+                <div class="rowNumber">4.</div>
+            </div>
+            <div class="rowSeat">
+                <div id="50" class="seat seatVIP">1</div>
+                <div id="51" class="seat seatVIP">2</div>
+                <div id="52" class="seat seatVIP">3</div>
+                <div id="53" class="seat seatVIP">4</div>
+                <div id="54" class="seat seatVIP">5</div>
+                <div id="55" class="seat seatVIP">6</div>
+                <div id="56" class="seat seatVIP">7</div>
+                <div id="57" class="seat seatVIP">8</div>
+                <div id="58" class="seat seatVIP">9</div>
+                <div id="59" class="seat seatVIP">10</div>
+                <div id="510" class="seat seatVIP">11</div>
+                <div id="511" class="seat seatVIP">12</div>
+                <div id="512" class="seat seatVIP">13</div>
+                <div class="rowNumber">5.</div>
+            </div>
+            <div class="rowSeat">
+                <div id="60" class="seat seatNormal">1</div>
+                <div id="61" class="seat seatNormal">2</div>
+                <div id="62" class="seat seatNormal">3</div>
+                <div id="63" class="seat seatNormal">4</div>
+                <div id="64" class="seat seatNormal">5</div>
+                <div id="65" class="seat seatNormal">6</div>
+                <div id="66" class="seat seatNormal">7</div>
+                <div id="67" class="seat seatNormal">8</div>
+                <div id="68" class="seat seatNormal">9</div>
+                <div id="69" class="seat seatNormal">10</div>
+                <div id="610" class="seat seatNormal">11</div>
+                <div id="611" class="seat seatNormal">12</div>
+                <div id="612" class="seat seatNormal">13</div>
+                <div id="614" class="seat seatNormal">14</div>
+                <div id="615" class="seat seatNormal">15</div>
+                <div id="616" class="seat seatNormal">16</div>
+                <div id="617" class="seat seatNormal">17</div>
+                <div class="rowNumberLast">6.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="title">
+        <h2>Legenda</h2>
+        <p class="lineDown"></p>
+    </div>
+        <div class="row">
+            <div class="column">
+                <div class="row">
+                    <div class="seat seatDisabled"></div>
+                    <p>Miejsce dla niepełnosprawnych 17,90zł</p>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <p>Ulgowy 17,90zł</p>
+                </div>
+                <div class="row">
+                    <div class="seat seatTaken"></div>
+                    <p>Miejsce zajęte</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="row">
+                    <div class="seat seatNormal"></div>
+                    <p>Normalny 21,90zł</p>
+                </div>
+                <div class="row">
+                    <div class="seat seatVIPNoMargin"></div>
+                    <p>Fotele VIP 25,90zł</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="title">
+            <h2>Wybrane bilety</h2>
+            <p class="lineDown"></p>
+        </div>
+        <div class="column">
+              <table id="tblData">
+                    <tr class="columnName">
+                        <td>Rząd:</td>
+                        <td>Miejsce:</td>
+                        <td>Typ biletu:</td>
+                        <td>Cena:</td>
+                    </tr>
+                </table>
+        </div>
+
+            <div class="title">
+                <h2>Suma</h2>
+                <p class="lineDown"></p>
+                <p id="sum">0</p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="buttonContent button"><p>Powrót</p></div>
+            <div class="buttonContent button"><p>Zakup bilet</p></div>
+        </div>
+
+</div><!--main-->
+    <div class="footerPartners">
+
+        <div class="partnersDiv">
+            <p class="partnersP">Znajdziesz nas na</p>
+            <p class="line"></p>
+            <div class="rowIcon">
+                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+            <p class="partnersP">Kontakt</p>
+            <p class="line"></p>
+            <div class="credentials">
+                <span>Gemini Park Tarnów</span>
+                <span>Nowodąbrowska 127, 33-100 Tarnów</span>
+                <span>Tel. 394 284 456</span>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+                <p class="partnersP">Partnerzy</p>
+                <p class="line"></p>
+            <div class="credentials">
+                <a href="https://www.dolby.com/"><img src="assets/icony/dolby_grey.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">© Copyright 2022 Cinema4U | Marcin Król | Kamil Chwistek</footer>
+</div>
+
+<script src="js/bilet.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+#main
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h2
+{
+    color: #D08831;
+}
+
+#banner
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-items: center;*/
+    /*align-content: center;*/
+    color: white;
+    /*margin-top: 100px;*/
+    padding-top: 90px;
+    width: 100%;
+    background: url("../assets/bg/bg4.jpg") center;
+}
+
+#banner img
+{
+    width: 130px;
+    height: 200px;
+    margin: 10px 20px 5px 0;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: white;
+
+}
+
+#bannerTitle
+{
+    color: #D08831;
+    margin-left: 0;
+}
+
+#bannerText
+{
+    width: 900px;
+}
+
+#bannerDate
+{
+    margin-top: 80px;
+}
+
+.lineDown
+{
+    width: 800px;
+    border-bottom: 2px solid #D08831;
+}
+
+.title
+{
+    margin-top: 30px;
+}
+
+#seats
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#seatsChooser
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+    height: 500px;
+    border: 1px solid white;
+}
+
+#room
+{
+    text-align: center;
+    background-color: #D08831;
+    color: white;
+    width: 600px;
+    height: 40px;
+    margin: 20px;
+}
+
+#room p{
+    margin-bottom: 10px;
+}
+
+.columnSeat
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*width: 800px;*/
+}
+
+.rowSeat
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.rowSeat
+{
+    margin-left: 115px;
+}
+
+.rowSeat:first-child
+{
+    margin-left: 160px;
+}
+.rowSeat:last-child
+{
+    margin-left: 20px;
+}
+
+.seat
+{
+    width: 35px;
+    height: 35px;
+    background-color: #1A9C34;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.seat:hover
+{
+    background-color: #ffb245;
+    transition: 0.5s ease-in-out;
+}
+
+.seatDisabled
+{
+    background-color: #3E4CED;
+}
+
+.seatNormal
+{
+    background-color: #8C8C8C;
+}
+
+.seatVIP
+{
+    margin-top: 20px;
+    background-color: #D08831;
+}
+
+.seatVIPNoMargin
+{
+    background-color: #D08831;
+}
+
+.seatTaken
+{
+    background-color: #B30000;
+}
+
+.rowNumberDisabled
+{
+    color: white;
+    margin-left: 100px;
+}
+
+.rowNumber
+{
+    color: white;
+    margin-left: 100px;
+}
+
+.rowNumberLast
+{
+    color: white;
+    margin-left: 15px;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.button
+{
+    width: 200px;
+    color: white;
+}
+
+table
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+    /*border: 1px solid #D08831;*/
+}
+
+td
+{
+    width: 200px;
+}
+
+td
+{
+    border: 1px solid #D08831;
+    border-collapse: collapse;
+    /*border-right: 1px solid #D08831;*/
+    /*border-left: 1px solid #D08831;*/
+    /*border-bottom: 1px solid #D08831;*/
+}
+
+.columnName
+{
+    color: #D08831;
+    font-weight: bold;
+}
+
+#sum
+{
+    color: white;
+}
+
+.seatReserve
+{
+    background-color: #ffb245;
+}
+
+.buttons a
+{
+    text-decoration: none;
+    color: white;
+}

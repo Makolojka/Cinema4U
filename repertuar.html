@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style_repertuar.css">
     <link rel="icon" href="assets/logo/cinema4u-logo_transparent.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -26,22 +27,6 @@
     </ul>
     <!--    </div>-->
 </header>
-<!--<section class="banner">-->
-<!--    &lt;!&ndash; Slider main container &ndash;&gt;-->
-<!--    <div class="swiper">-->
-<!--        &lt;!&ndash; Additional required wrapper &ndash;&gt;-->
-<!--        <div class="swiper-wrapper">-->
-<!--            &lt;!&ndash; Slides &ndash;&gt;-->
-<!--            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/films/ad2.jpg"></a></div>-->
-<!--            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/films/ad6.jpg"></a></div>-->
-<!--            <div class="swiper-slide"><a href="#"><img class="opacityImg" src="assets/films/ad1.png"></a></div>-->
-
-<!--        </div>-->
-<!--        <div class="swiper-pagination"></div>-->
-<!--        <div class="swiper-button-prev"></div>-->
-<!--        <div class="swiper-button-next"></div>-->
-<!--    </div>-->
-<!--</section>-->
 
 <div id="main">
 
@@ -53,20 +38,33 @@
         </div>
 
         <div id="dates">
-            <div class="buttonDate"><a href="#"><p>Pon. 31.10</p></a></div>
-            <div class="buttonDate"><a href="#"><p>Wt. 1.11</p></a></div>
-            <div class="buttonDate"><a href="#"><p>Śr. 2.11</p></a></div>
-            <div class="buttonDate"><a href="#"><p>Czw. 3.11</p></a></div>
-            <div class="buttonDate"><a href="#"><p>Pt. 4.11</p></a></div>
-            <div class="buttonDate"><a href="#"><p>Sob. 5.11</p></a></div>
-            <div class="buttonDate"><a href="#"><p>Ndz. 6.11</p></a></div>
+            <div class="buttonDate" onclick="show('monday')"><a href="#"><p>Pon. 31.10</p></a></div>
+            <div class="buttonDate" onclick="show('tuesday')"><a href="#"><p>Wt. 1.11</p></a></div>
+            <div class="buttonDate" onclick="show('wednesday')"><a href="#"><p>Śr. 2.11</p></a></div>
+            <div class="buttonDate" onclick="show('thursday')"><a href="#"><p>Czw. 3.11</p></a></div>
+            <div class="buttonDate" onclick="show('friday')"><a href="#"><p>Pt. 4.11</p></a></div>
+            <div class="buttonDate" onclick="show('saturday')"><a href="#"><p>Sob. 5.11</p></a></div>
+            <div class="buttonDate" onclick="show('sunday')"><a href="#"><p>Ndz. 6.11</p></a></div>
+            <div class="buttonDate" onclick="showWeek()"><a href="#"><p>Cały tydz.</p></a></div>
         </div>
 
     </div>
 
+    <script>
+        function filmValues(filmName, date)
+        {
+            localStorage.setItem("filmName", filmName);
+
+            localStorage.setItem("filmDate", date);
+
+            window.location.href = "bilet.html";
+            return false;
+        }
+    </script>
+
     <div class="mainDivText">
 
-        <div class="repertuarDiv">
+        <div class="repertuarDiv monday">
             <div class="wrapper">
                 <img src="assets/films/blackadam2.jpg">
                 <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
@@ -75,21 +73,22 @@
                 <h2>Black Adam
                     <p>(2D NAPISY)</p>
                 </h2>
-                <p>Po blisko pięciu tysiącleciach obdarzony boskimi mocami Black Adam zostaje uwolniony ze swojego ziemskiego grobowca.</p>
+                <p id="filmDesc">Po blisko pięciu tysiącleciach obdarzony boskimi mocami Black Adam zostaje uwolniony ze swojego ziemskiego grobowca.</p>
                 <p><span class="repP">Język: </span>2D Napisy</p>
                 <p><span class="repP">Data premiery: </span>31.10.2022</p>
                 <p><span class="repP">Gatunek: </span>Akcja, Sci-Fi</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate"><a href="#"><p>10:45</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>13:45</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>16:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('blackAdam', 'Pon. 31.10.2022, godz. 10:45')"><a href="#"><p>10:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('blackAdam', 'Pon. 31.10.2022, godz. 13:45')"><a href="#"><p>13:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('blackAdam', 'Pon. 31.10.2022, godz. 16:45')"><a href="#"><p>16:45</p></a></div>
                 </div>
             </div>
+            <div><p class="lineS"></p></div>
         </div>
-        <p class="lineS"></p>
 
-        <div class="repertuarDiv">
+
+        <div class="repertuarDiv tuesday">
             <div class="wrapper">
                 <img src="assets/films/biletdoR.jpg">
                 <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
@@ -104,14 +103,14 @@
                 <p><span class="repP">Gatunek: </span>Komedia romantyczna</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate"><a href="#"><p>15:45</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>19:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('biletDoRaju', 'Wt. 1.11.2022, godz. 15:45')"><a href="#"><p>15:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('biletDoRaju', 'Wt. 1.11.2022, godz. 19:45')"><a href="#"><p>19:45</p></a></div>
                 </div>
             </div>
+            <p class="lineS"></p>
         </div>
-        <p class="lineS"></p>
 
-        <div class="repertuarDiv">
+        <div class="repertuarDiv thursday">
             <div class="wrapper">
                 <img src="assets/films/DLIGa.jpg">
                 <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
@@ -126,15 +125,15 @@
                 <p><span class="repP">Gatunek: </span>Animacja, Akcja, Sci-Fi</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate"><a href="#"><p>12:45</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>15:30</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>18:20</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 3.11.2022, godz. 12:45')"><a href="#"><p>12:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 3.11.2022, godz. 15:30')"><a href="#"><p>15:30</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 3.11.2022, godz. 18:20')"><a href="#"><p>18:20</p></a></div>
                 </div>
             </div>
+            <p class="lineS"></p>
         </div>
-        <p class="lineS"></p>
 
-        <div class="repertuarDiv">
+        <div class="repertuarDiv thursday">
 <!--            <div class="repertuarImg">-->
             <div class="wrapper">
                 <img src="assets/films/halloween.png">
@@ -146,19 +145,20 @@
                 </h2>
                 <p>Laurie Strode po raz ostatni staje do walki z wcieleniem zła, Michaelem Myersem. Tylko jedno z nich przeżyje.</p>
                 <p><span class="repP">Język: </span>2D Napisy</p>
-                <p><span class="repP">Data premiery: </span>5.11.2022</p>
+                <p><span class="repP">Data premiery: </span>3.11.2022</p>
                 <p><span class="repP">Gatunek: </span>Horror</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate"><a href="#"><p>16:45</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>19:30</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>21:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('halloween', 'Czw. 3.11.2022, godz. 16:45')"><a href="#"><p>16:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('halloween', 'Czw. 3.11.2022, godz. 19:30')"><a href="#"><p>19:30</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('halloween', 'Czw. 3.11.2022, godz. 21:45')"><a href="#"><p>21:45</p></a></div>
                 </div>
             </div>
+            <p class="lineS"></p>
         </div>
-        <p class="lineS"></p>
 
-        <div class="repertuarDiv">
+
+        <div class="repertuarDiv friday">
             <div class="wrapper">
                 <img src="assets/films/egzorcyzmy_maly.png">
                 <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
@@ -169,18 +169,18 @@
                 </h2>
                 <p>Przerażająca historia siostry Ann, młodej zakonnicy, pierwszej w historii kobiety, której Kościół katolicki zezwolił wykonania obrzędu egzorcyzmu.</p>
                 <p><span class="repP">Język: </span>2D Dubbing</p>
-                <p><span class="repP">Data premiery: </span>15.11.2022</p>
+                <p><span class="repP">Data premiery: </span>4.11.2022</p>
                 <p><span class="repP">Gatunek: </span>Horror</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate"><a href="#"><p>19:20</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>21:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('egzorcyzmyAnn', 'Pt. 4.11.2022, godz. 19:20')"><a href="#"><p>19:20</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('egzorcyzmyAnn', 'Pt. 4.11.2022, godz. 21:45')"><a href="#"><p>21:45</p></a></div>
                 </div>
             </div>
+            <p class="lineS"></p>
         </div>
-        <p class="lineS"></p>
 
-        <div class="repertuarDiv">
+        <div class="repertuarDiv friday">
             <div class="wrapper">
                 <img src="assets/films/samuraj_maly.png">
                 <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
@@ -191,17 +191,17 @@
                 </h2>
                 <p>Hank marzy o zostaniu samurajem, dlatego wybiera się na zamieszkaną tylko przez koty wyspę, by tam odbyć szkolenie.</p>
                 <p><span class="repP">Język: </span>2D Napisy</p>
-                <p><span class="repP">Data premiery: </span>26.08.2022</p>
+                <p><span class="repP">Data premiery: </span>4.11.2022</p>
                 <p><span class="repP">Gatunek: </span>Animacja, Akcja, Fantasy, Sztuki walki</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate"><a href="#"><p>12:45</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>15:30</p></a></div>
-                    <div class="buttonDate"><a href="#"><p>18:20</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 4.11.2022, godz. 12:45')"><a href="#"><p>12:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 4.11.2022, godz. 15:30')"><a href="#"><p>15:30</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 4.11.2022, godz. 18:20')"><a href="#"><p>18:20</p></a></div>
                 </div>
             </div>
+            <p class="lineS"></p>
         </div>
-        <p class="lineS"></p>
 
     </div>
 
@@ -240,7 +240,7 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
+<script src="js/repertuar.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
         autoplay: {

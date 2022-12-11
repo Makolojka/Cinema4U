@@ -103,7 +103,7 @@
 
 .dolby h2
 {
-    margin: 0;
+    margin: 10px;
     color: #D08831;
 }
 
@@ -130,14 +130,14 @@ input
 {
     width: 250px;
     height: 30px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
 }
 
 input:hover
 {
-    border: 2px solid #D08831;
+    border: 1px solid #D08831;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
 }
@@ -149,7 +149,7 @@ input:hover
 }
 input:focus {
     outline: none;
-    border: 2px solid #D08831;
+    border: 1px solid #D08831;
 }
 
 textarea
@@ -168,6 +168,7 @@ textarea
 
 #submit
 {
+    /*font-family: 'Nunito', sans-serif;*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

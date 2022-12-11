@@ -263,3 +263,9 @@ td
 {
     background-color: #ffb245;
 }
+
+.buttons a
+{
+    text-decoration: none;
+    color: white;
+}

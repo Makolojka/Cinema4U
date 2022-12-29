@@ -170,12 +170,12 @@ header a:hover
 .pair
 {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .footerPartners
@@ -188,7 +188,7 @@ header a:hover
     align-content: center;
     /*border: 1px solid red;*/
     /*background-color: black;*/
-    background: url("../assets/bg/bg4.jpg") fixed center;
+    background: url("../assets/bg/bg4.jpg") center;
     color: #D08831;
     margin-top: 60px;
     position: relative;
@@ -219,7 +219,9 @@ header a:hover
 .line
 {
     min-width: 200px;
+    max-width: 600px;
     border-bottom: 2px solid #D08831;
+    /*margin-bottom: 20px;*/
 }
 
 .partnersP
@@ -339,87 +341,102 @@ header a:hover
 
 #egzorcyzmAnn
 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/films/ann.jpg") no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url("../assets/films/ann.jpg") no-repeat center;
     height: 300px;
-    transition: all 0.5s ease-in-out;
-}
-#egzorcyzmAnn:hover
-{
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/ann.jpg") no-repeat fixed center;
+    width: 900px;
     transition: all 0.5s ease-in-out;
 }
 
-#samuraj
-{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/films/blazing2.jpg") no-repeat fixed center;
-    height: 300px;
-    transition: all 0.5s ease-in-out;
-}
-#samuraj:hover
-{
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/blazing2.jpg") no-repeat fixed center;
-    transition: all 0.5s ease-in-out;
-}
+/*#egzorcyzmAnn:hover*/
+/*{*/
+/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/ann.jpg") no-repeat center;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
 
 #samuraj
 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/films/blazing2.jpg") no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/blazing2.jpg") no-repeat center;
     height: 300px;
+    width: 900px;
     transition: all 0.5s ease-in-out;
 }
-#samuraj:hover
+
+/*#samuraj:hover*/
+/*{*/
+/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/blazing2.jpg") no-repeat center;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
+
+#samuraj
 {
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/blazing2.jpg") no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/blazing2.jpg") no-repeat center;
+    height: 300px;
+    width: 900px;
     transition: all 0.5s ease-in-out;
 }
+
+/*#samuraj:hover*/
+/*{*/
+/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/blazing2.jpg") no-repeat center;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
 
 #dcLiga
 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/films/ad1.png") no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/ad1.png") no-repeat center;
     height: 300px;
+    width: 900px;
     transition: all 0.5s ease-in-out;
 }
-#dcLiga:hover
-{
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/ad1.png") no-repeat fixed center;
-    transition: all 0.5s ease-in-out;
-}
+
+/*#dcLiga:hover*/
+/*{*/
+/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/ad1.png") no-repeat center;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
 
 #biletDoRaju
 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/films/biletdoraju hd.png") no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/biletdoraju hd.png") no-repeat center;
     height: 300px;
+    width: 900px;
     transition: all 0.5s ease-in-out;
 }
-#biletDoRaju:hover
-{
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/biletdoraju hd.png") no-repeat fixed center;
-    transition: all 0.5s ease-in-out;
-}
+
+/*#biletDoRaju:hover*/
+/*{*/
+/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/biletdoraju hd.png") no-repeat center;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
 
 #halloweenFinal
 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/films/halloween-ends-movie-review-2022-transformed.jpeg") no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url("../assets/films/halloween-ends-movie-review-2022-transformed.jpeg") no-repeat center;
     height: 300px;
-    transition: all 0.5s ease-in-out;
-}
-#halloweenFinal:hover
-{
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/halloween-ends-movie-review-2022-transformed.jpeg") no-repeat fixed center;
+    width: 900px;
     transition: all 0.5s ease-in-out;
 }
 
+/*#halloweenFinal:hover*/
+/*{*/
+/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/halloween-ends-movie-review-2022-transformed.jpeg") no-repeat center;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
+
 #zaginioneMiasto
 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/films/zaginione.jpeg") no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/zaginione.jpeg") no-repeat center;
     height: 300px;
+    width: 900px;
+    /*height: 300px;*/
     transition: all 0.5s ease-in-out;
 }
-#zaginioneMiasto:hover
-{
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/zaginione.jpeg") no-repeat fixed center;
-    transition: all 0.5s ease-in-out;
-}
+
+/*#zaginioneMiasto:hover*/
+/*{*/
+/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/zaginione.jpeg") no-repeat center;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
 
 .bgImage
 {
@@ -428,19 +445,33 @@ header a:hover
     /*height: 100px;*/
     color: white;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 20px 20px;
     min-width: 400px;
+    transition: all 1s ease-in-out;
 }
+
+/*.bgImage:hover*/
+/*{*/
+/*    transition: all 1s ease-in-out;*/
+/*    transform: rotateY(180deg);*/
+/*}*/
 
 .bgImage .text
 {
     /*background-color: rgba(0,0,0,0.6);*/
-    padding: 20px;
-    width: 100%;
+    /*padding: 20px;*/
+    /*width: 100%;*/
     max-height: 300px;
     /*min-width: 500px;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .bgImage .text p {
@@ -450,26 +481,42 @@ header a:hover
     margin: 0;
 }
 
-.bgImage .text .buttonContent
+.buttonContent
 {
-    width: 170px;
+    justify-content: center;
     text-align: center;
+    width: 170px;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
 }
-.bgImage h1
+.buttonContent a
 {
-    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.columnContainer a
+{
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.bgImage .text h1
+{
+    font-size: 25px;
 }
 
 @media (max-width:1600px) {
     .bgImage .text p {
-        font-size: 14px;
+        font-size: 16px;
         width: 100%;
         max-height: 400px;
         margin: 0;
     }
     .bgImage .text .buttonContent
     {
-        font-size: 12px;
+        font-size: 14px;
         width: 120px;
         text-align: center;
     }
@@ -504,6 +551,21 @@ header a:hover
     color: white;
 }
 
+.columnContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.columnContainer:last-child
+{
+    margin-bottom: 50px;
+}
 
 
 

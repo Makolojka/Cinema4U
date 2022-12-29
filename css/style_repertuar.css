@@ -120,6 +120,11 @@
     font-size: 20px;
 }
 
+.repertuarText h2
+{
+    margin: 0;
+}
+
 .repertuarDiv p
 {
     margin: 5px 0 10px 0;

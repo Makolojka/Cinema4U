@@ -47,7 +47,7 @@ p
 {
     /*position: relative;*/
     width: 100%;
-    max-height: 500px;
+    max-height: 1080px;
     height: auto;
     /*background-size: cover;*/
 }
@@ -157,6 +157,7 @@ header a:hover
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-bottom: 20px;
     /*border: 1px solid red;*/
     /*min-height: 650px;*/
 }
@@ -190,7 +191,7 @@ header a:hover
     /*background-color: black;*/
     background: url("../assets/bg/bg4.jpg") center;
     color: #D08831;
-    margin-top: 60px;
+    margin-top: auto;
     position: relative;
     bottom:0;
     width:100%;
@@ -567,5 +568,17 @@ header a:hover
     margin-bottom: 50px;
 }
 
+main
+{
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 

@@ -39,22 +39,16 @@ p
     display: flex;
     justify-content: center;
     align-content: center;
-    /*background: url("../assets/films/ad2.jpg");*/
-    /*background-size: cover;*/
 }
 
 .swiper
 {
-    /*position: relative;*/
     width: 100%;
     max-height: 1080px;
     height: auto;
-    /*background-size: cover;*/
 }
 .swiper-slide img
 {
-    /*min-width: 100%;*/
-    /*min-height: 100%;*/
     width: 100%;
     max-height: 800px;
     height: auto;
@@ -64,11 +58,6 @@ p
 {
     color: #D08831;
 }
-
-/*.swiper .swiper-pagination-bullet-active*/
-/*{*/
-/*    background: #D08831;*/
-/*}*/
 
 .swiper .swiper-pagination-bullet
 {
@@ -158,8 +147,6 @@ header a:hover
     align-items: center;
     align-content: center;
     margin-bottom: 20px;
-    /*border: 1px solid red;*/
-    /*min-height: 650px;*/
 }
 
 .divRow
@@ -348,11 +335,6 @@ header a:hover
     transition: all 0.5s ease-in-out;
 }
 
-/*#egzorcyzmAnn:hover*/
-/*{*/
-/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/ann.jpg") no-repeat center;*/
-/*    transition: all 0.5s ease-in-out;*/
-/*}*/
 
 #samuraj
 {
@@ -362,11 +344,6 @@ header a:hover
     transition: all 0.5s ease-in-out;
 }
 
-/*#samuraj:hover*/
-/*{*/
-/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/blazing2.jpg") no-repeat center;*/
-/*    transition: all 0.5s ease-in-out;*/
-/*}*/
 
 #samuraj
 {
@@ -375,12 +352,6 @@ header a:hover
     width: 900px;
     transition: all 0.5s ease-in-out;
 }
-
-/*#samuraj:hover*/
-/*{*/
-/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/blazing2.jpg") no-repeat center;*/
-/*    transition: all 0.5s ease-in-out;*/
-/*}*/
 
 #dcLiga
 {
@@ -390,12 +361,6 @@ header a:hover
     transition: all 0.5s ease-in-out;
 }
 
-/*#dcLiga:hover*/
-/*{*/
-/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/ad1.png") no-repeat center;*/
-/*    transition: all 0.5s ease-in-out;*/
-/*}*/
-
 #biletDoRaju
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/biletdoraju hd.png") no-repeat center;
@@ -403,12 +368,6 @@ header a:hover
     width: 900px;
     transition: all 0.5s ease-in-out;
 }
-
-/*#biletDoRaju:hover*/
-/*{*/
-/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/biletdoraju hd.png") no-repeat center;*/
-/*    transition: all 0.5s ease-in-out;*/
-/*}*/
 
 #halloweenFinal
 {
@@ -418,32 +377,18 @@ header a:hover
     transition: all 0.5s ease-in-out;
 }
 
-/*#halloweenFinal:hover*/
-/*{*/
-/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/halloween-ends-movie-review-2022-transformed.jpeg") no-repeat center;*/
-/*    transition: all 0.5s ease-in-out;*/
-/*}*/
-
 #zaginioneMiasto
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/zaginione.jpeg") no-repeat center;
     height: 300px;
     width: 900px;
-    /*height: 300px;*/
     transition: all 0.5s ease-in-out;
 }
-
-/*#zaginioneMiasto:hover*/
-/*{*/
-/*    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../assets/films/zaginione.jpeg") no-repeat center;*/
-/*    transition: all 0.5s ease-in-out;*/
-/*}*/
 
 .bgImage
 {
     background-size: cover;
     width: 45%;
-    /*height: 100px;*/
     color: white;
     display: flex;
     justify-content: center;
@@ -453,19 +398,9 @@ header a:hover
     transition: all 1s ease-in-out;
 }
 
-/*.bgImage:hover*/
-/*{*/
-/*    transition: all 1s ease-in-out;*/
-/*    transform: rotateY(180deg);*/
-/*}*/
-
 .bgImage .text
 {
-    /*background-color: rgba(0,0,0,0.6);*/
-    /*padding: 20px;*/
-    /*width: 100%;*/
     max-height: 300px;
-    /*min-width: 500px;*/
     text-align: center;
     display: flex;
     flex-direction: column;

@@ -22,12 +22,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    /*text-transform: uppercase;*/
     font-size: 20px;
     color: #fff;
-    /*white-space: nowrap;*/
-    /*width: 1200px;*/
-    /*overflow: hidden;*/
 }
 .cont a{
     font-size: 2vh;

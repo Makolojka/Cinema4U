@@ -9,9 +9,13 @@
     transition: all 0.8s ease;
 }
 
-.thecard:active{
+.thecard:hover{
     transform: rotateY(180deg);
 }
+
+/*.thecard:active{*/
+/*    transform: rotateY(180deg);*/
+/*}*/
 
 .thefront{
     position: absolute;
@@ -57,6 +61,7 @@
     font-size: 24px;
     text-align: center;
     color: white;
+    margin: 0px;
 }
 
 .thefront p, .theback p{

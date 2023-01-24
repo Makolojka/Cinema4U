@@ -16,6 +16,7 @@
     justify-content: left;
     align-items: center;
     align-content: center;
+    margin-top: 0px;
 }
 
 
@@ -27,7 +28,7 @@ h1
 .contentText p
 {
     width: auto;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 60px;
 }
 
@@ -78,11 +79,26 @@ iframe
     text-align: center;
 }
 
+h2
+{
+    font-size: 32px;
+}
+
 @media (max-width:1600px) {
     h1
     {
         margin-left: 10px;
-        font-size: 40px;
+        font-size: 36px;
+    }
+    h2
+    {
+        font-size: 24px;
+    }
+    .contentText p
+    {
+        width: auto;
+        font-size: 20px;
+        margin-bottom: 60px;
     }
     .container {
         position: relative;
@@ -149,5 +165,12 @@ a
     text-decoration: none;
     color: white;
 }
+
+
+.line
+{
+    margin-left: 10px;
+}
+
 
 

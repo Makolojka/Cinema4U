@@ -7,7 +7,7 @@
 
 #main
 {
-    margin-top: 100px;
+
 }
 
 .contentImg
@@ -35,7 +35,7 @@
     align-content: start;
     color: white;
     margin: 30px;
-    width: 700px;
+    width: 1000px;
     height: 100%;
 }
 
@@ -47,3 +47,43 @@
         padding: 10px 10px;
 }
 
+p
+{
+    font-size: 24px;
+}
+
+.contentText ol
+{
+    font-size: 20px;
+}
+
+.contentText img
+{
+    width: 1000px;
+}
+
+.imgWrapper {
+    margin-top: 50px;
+    display: inline-block;
+    overflow: hidden;
+
+    border: 1px solid gray;
+}
+
+.imgWrapper img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
+    vertical-align: middle;
+}
+
+.imgWrapper img:hover {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
+}

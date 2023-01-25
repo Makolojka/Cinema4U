@@ -330,6 +330,7 @@ header a:hover
 #egzorcyzmAnn
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url("../assets/films/ann.jpg") no-repeat center;
+    box-shadow: inset 0 0 100px black;
     height: 300px;
     width: 900px;
     transition: all 0.5s ease-in-out;
@@ -339,6 +340,7 @@ header a:hover
 #samuraj
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/blazing2.jpg") no-repeat center;
+    box-shadow: inset 0 0 100px black;
     height: 300px;
     width: 900px;
     transition: all 0.5s ease-in-out;
@@ -348,6 +350,7 @@ header a:hover
 #samuraj
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/blazing2.jpg") no-repeat center;
+    box-shadow: inset 0 0 100px black;
     height: 300px;
     width: 900px;
     transition: all 0.5s ease-in-out;
@@ -356,6 +359,7 @@ header a:hover
 #dcLiga
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/ad1.png") no-repeat center;
+    box-shadow: inset 0 0 100px black;
     height: 300px;
     width: 900px;
     transition: all 0.5s ease-in-out;
@@ -364,6 +368,7 @@ header a:hover
 #biletDoRaju
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/biletdoraju hd.png") no-repeat center;
+    box-shadow: inset 0 0 100px black;
     height: 300px;
     width: 900px;
     transition: all 0.5s ease-in-out;
@@ -372,6 +377,7 @@ header a:hover
 #halloweenFinal
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url("../assets/films/halloween-ends-movie-review-2022-transformed.jpeg") no-repeat center;
+    box-shadow: inset 0 0 100px black;
     height: 300px;
     width: 900px;
     transition: all 0.5s ease-in-out;
@@ -380,6 +386,7 @@ header a:hover
 #zaginioneMiasto
 {
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../assets/films/zaginione.jpeg") no-repeat center;
+    box-shadow: inset 0 0 100px black;
     height: 300px;
     width: 900px;
     transition: all 0.5s ease-in-out;

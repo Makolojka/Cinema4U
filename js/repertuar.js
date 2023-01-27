@@ -1,4 +1,3 @@
-//System tymczasowy, do zmiany.
 const boxes0 = Array.from(
     document.getElementsByClassName('monday')
 );

@@ -19,7 +19,6 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
-    /*margin-top: 50px;*//*  Margin pod banerem  */
 }
 
 .latestNews
@@ -29,12 +28,13 @@
     flex-direction: row;
     align-items: center;
     align-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: -20px;
     max-height: 200px;
     padding: 20px;
     width: 100%;
-    background: url("../assets/bg/bg4.jpg") fixed center;
-    /*background-color: #050505;*/
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.3) 0%, rgba(42,32,20,0.3) 100%, rgba(149,114,71,0.3) 100%);
 }
 
 .rowDiv
@@ -53,14 +53,13 @@
     flex-direction: row;
     align-items: center;
     align-content: center;
-    margin-left: 15%;
+    /*margin-left: 15%;*/
 }
 
 .rowDiv img
 {
     width: 400px;
-    height: 180px; /*Img muszą mieć te same rozmiary inaczej zmienić*/
-    margin-bottom: 20px;
+    height: 180px;
     border-radius: 2px;
 }
 
@@ -74,9 +73,12 @@
 .latestNews .rowDivL img
 {
     width: 300px;
-    height: 180px; /*Img muszą mieć te same rozmiary inaczej zmienić*/
-    margin-bottom: 20px;
-    border-radius: 2px;
+}
+
+.latestNews .rowDivL
+{
+    margin-top: 20px;
+    margin-left: 2%;
 }
 
 @media (max-width:1600px) {
@@ -108,7 +110,7 @@
 
 .rowDiv .newsTextDiv p
 {
-   font-size: 12px;
+   font-size: 16px;
 }
 
 .latestNews .newsTextDiv
@@ -129,7 +131,7 @@
 {
     background-color: #D08831;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
     padding: 0px 2px;
 }
 
@@ -153,10 +155,38 @@
 
 .latestNews
 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .latestNews .rowDivL .newsTextDiv .buttonNews .NEWS
 {
-    font-size: 20px;
+    font-size: 24px;
+}
+
+
+.imgWrapper {
+    display: inline-block;
+    overflow: hidden;
+
+    border: 1px solid #D08831;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.imgWrapper img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
+    vertical-align: middle;
+}
+
+.imgWrapper img:hover {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
 }

@@ -42,6 +42,30 @@ function setFields()
             document.getElementById("bannerDate").innerHTML=filmDate;
             document.getElementById("filmImg").src = 'assets/films/samuraj_maly.png';
             break;
+        case 'dzikaNoc':
+            document.getElementById("bannerTitle").innerHTML='Dzika Noc (3D NAPISY)';
+            document.getElementById("bannerDesc").innerHTML='Kiedy pewna, bogata rodzina zostaje zakładnikami w Wigilię, przestępcy nie są przygotowani na niespodziewanego bojownika. Święty ...';
+            document.getElementById("bannerDate").innerHTML=filmDate;
+            document.getElementById("filmImg").src = 'assets/films/DzikaNoc.png';
+            break;
+        case 'wielkiKrokodyl':
+            document.getElementById("bannerTitle").innerHTML='Wielki Zielony Krokodyl Domowy (2D DUBBING)';
+            document.getElementById("bannerDesc").innerHTML='Kiedy rodzina Primmów przeprowadza się do Nowego Jorku, ich  syn, Josh z trudem przystosowuje się do ...';
+            document.getElementById("bannerDate").innerHTML=filmDate;
+            document.getElementById("filmImg").src = 'assets/films/WielkiKrokodyl.png';
+            break;
+        case 'dziwnySwiat':
+            document.getElementById("bannerTitle").innerHTML='Dziwny Świat (2D DUBBING)';
+            document.getElementById("bannerDesc").innerHTML='Bohaterowie rozpoczynają podróż do miejsca, w którym nic nie jest takie, jakie mogłoby się początkowo wydawać.';
+            document.getElementById("bannerDate").innerHTML=filmDate;
+            document.getElementById("filmImg").src = 'assets/films/DziwnySwiat.png';
+            break;
+        case 'bella':
+            document.getElementById("bannerTitle").innerHTML='Bella i Sebastian Nowe Pokolenie (2D DUBBING)';
+            document.getElementById("bannerDesc").innerHTML='Wielki powrót familijnej serii o przyjaźni psa i dziecka – Belli i Sebastiana. Dziesięcioletni chłopiec niechętnie ...';
+            document.getElementById("bannerDate").innerHTML=filmDate;
+            document.getElementById("filmImg").src = 'assets/films/Bella.png';
+            break;
         default:
             document.getElementById("bannerTitle").innerHTML='error';
             document.getElementById("bannerDesc").innerHTML='error';

@@ -3,9 +3,11 @@ body
     background: url("../assets/bg/bg2.jpg") fixed center;
 }
 
-#main
+#sheet
 {
-    /*background: url("../assets/bg/bg4.jpg");*/
+    margin-top: 200px;
+    min-width: 400px;
+    min-height: auto;
 }
 
 #priceBg
@@ -18,7 +20,6 @@ body
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 20%;
 }
 
 #priceTag
@@ -39,12 +40,13 @@ body
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 20px;
 }
 
 #priceTag p
 {
-    font-size: 30px;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 10px;
     color: white;
     border-radius: 10px;
     margin: 20px 40px;
@@ -80,6 +82,7 @@ body
     color: white;
     background-color: black;
     border-radius: 10px;
+    padding: 10px;
     margin: 20px 40px;
     width: 150px;
     text-align: center;
@@ -101,6 +104,7 @@ body
     color: white;
     background-color: #8C8C8C;
     border-radius: 10px;
+    padding: 10px;
     margin: 20px 40px;
     width: 150px;
     text-align: center;
@@ -123,6 +127,7 @@ body
     background-color: #D08831;
     border-radius: 10px;
     margin: 20px 40px;
+    padding: 10px;
     width: 150px;
     text-align: center;
 }
@@ -135,7 +140,6 @@ body
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 50px;
 }
 
 .dolby

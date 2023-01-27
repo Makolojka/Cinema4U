@@ -14,7 +14,6 @@
 <body>
 
 <header>
-    <!--    <div class="mainDivs">-->
     <a href="index.html" class="logo"><img id="logo" src="assets/logo/cinema4u-logo_transparent.png"></a>
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -25,9 +24,8 @@
         <li><a href="o_kinie.html">O kinie</a></li>
         <li><a href="szkoly.html">Szkoły</a></li>
     </ul>
-    <!--    </div>-->
 </header>
-
+<main>
 <div id="main">
 
     <div id="dateChoice">
@@ -67,7 +65,7 @@
         <div class="repertuarDiv monday">
             <div class="wrapper">
                 <img src="assets/films/blackadam2.jpg">
-                <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
+                <div class="overlay"><div class="cont"><a href="articles/black_adam.html">O filmie</a></div></div>
             </div>
             <div class="repertuarText">
                 <h2>Black Adam
@@ -87,11 +85,31 @@
             <div><p class="lineS"></p></div>
         </div>
 
+        <div class="repertuarDiv monday">
+            <div class="wrapper">
+                <img src="assets/films/DziwnySwiat.png">
+                <div class="overlay"><div class="cont"><a href="articles/dziwny.html">O filmie</a></div></div>
+            </div>
+            <div class="repertuarText">
+                <h2>Dziwny Świat
+                    <p>(2D DUBBING)</p>
+                </h2>
+                <p>Bohaterowie rozpoczynają podróż do miejsca, w którym nic nie jest takie, jakie mogłoby się początkowo wydawać.</p>
+                <p><span class="repP">Język: </span>2D Dubbing</p>
+                <p><span class="repP">Data premiery: </span>31.10.2022</p>
+                <p><span class="repP">Gatunek: </span>Animowany</p>
+                <p><span class="repP">Dostępne godziny:</span></p>
+                <div class="avaibility">
+                    <div class="buttonDate" onclick="filmValues('dziwnySwiat', 'Pon. 31.10.2022, godz. 15:00')"><a href="#"><p>15:00</p></a></div>
+                </div>
+            </div>
+            <div><p class="lineS"></p></div>
+        </div>
 
         <div class="repertuarDiv tuesday">
             <div class="wrapper">
                 <img src="assets/films/biletdoR.jpg">
-                <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
+                <div class="overlay"><div class="cont"><a href="articles/bilet_do_raju.html">O filmie</a></div></div>
             </div>
             <div class="repertuarText">
                 <h2>Bilet do raju
@@ -110,10 +128,31 @@
             <p class="lineS"></p>
         </div>
 
-        <div class="repertuarDiv thursday">
+        <div class="repertuarDiv tuesday">
+            <div class="wrapper">
+                <img src="assets/films/Bella.png">
+                <div class="overlay"><div class="cont"><a href="articles/bella.html">O filmie</a></div></div>
+            </div>
+            <div class="repertuarText">
+                <h2>Bella i Sebastian Nowe Pokolenie
+                    <p>(2D DUBBING)</p>
+                </h2>
+                <p>Wielki powrót familijnej serii o przyjaźni psa i dziecka – Belli i Sebastiana. Dziesięcioletni chłopiec niechętnie ...</p>
+                <p><span class="repP">Język: </span>2D Dubbing</p>
+                <p><span class="repP">Data premiery: </span>1.11.2022</p>
+                <p><span class="repP">Gatunek: </span>Familijny, Przygodowy</p>
+                <p><span class="repP">Dostępne godziny:</span></p>
+                <div class="avaibility">
+                    <div class="buttonDate" onclick="filmValues('bella', 'Wt. 1.11.2022, godz. 12:35')"><a href="#"><p>12:35</p></a></div>
+                </div>
+            </div>
+            <p class="lineS"></p>
+        </div>
+
+        <div class="repertuarDiv wednesday">
             <div class="wrapper">
                 <img src="assets/films/DLIGa.jpg">
-                <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
+                <div class="overlay"><div class="cont"><a href="articles/dc_liga.html">O filmie</a></div></div>
             </div>
             <div class="repertuarText">
                 <h2>DC LIGA SUPER-PETS
@@ -121,13 +160,13 @@
                 </h2>
                 <p>Gdy Liga Sprawiedliwości zostaje uprowadzona Superpies Krypto, nieodłączny towarzysz Supermana, organizuje grupę zwierząt ze schroniska, z którymi ruszy im na ratunek.</p>
                 <p><span class="repP">Język: </span>2D Dubbing</p>
-                <p><span class="repP">Data premiery: </span>3.11.2022</p>
+                <p><span class="repP">Data premiery: </span>2.11.2022</p>
                 <p><span class="repP">Gatunek: </span>Animacja, Akcja, Sci-Fi</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 3.11.2022, godz. 12:45')"><a href="#"><p>12:45</p></a></div>
-                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 3.11.2022, godz. 15:30')"><a href="#"><p>15:30</p></a></div>
-                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 3.11.2022, godz. 18:20')"><a href="#"><p>18:20</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 2.11.2022, godz. 12:45')"><a href="#"><p>12:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 2.11.2022, godz. 15:30')"><a href="#"><p>15:30</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dcLiga', 'Czw. 2.11.2022, godz. 18:20')"><a href="#"><p>18:20</p></a></div>
                 </div>
             </div>
             <p class="lineS"></p>
@@ -137,7 +176,7 @@
 <!--            <div class="repertuarImg">-->
             <div class="wrapper">
                 <img src="assets/films/halloween.png">
-                <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
+                <div class="overlay"><div class="cont"><a href="articles/halloween.html">O filmie</a></div></div>
             </div>
             <div class="repertuarText">
                 <h2>Halloween. Finał.
@@ -157,11 +196,33 @@
             <p class="lineS"></p>
         </div>
 
+        <div class="repertuarDiv thursday">
+            <div class="wrapper">
+                <img src="assets/films/WielkiKrokodyl.png">
+                <div class="overlay"><div class="cont"><a href="articles/krokodyl_zielony.html">O filmie</a></div></div>
+            </div>
+            <div class="repertuarText">
+                <h2>Wielki Zielony Krokodyl Domowy
+                    <p>(2D DUBBING)</p>
+                </h2>
+                <p>Kiedy rodzina Primmów przeprowadza się do Nowego Jorku, ich  syn, Josh z trudem przystosowuje się do ...</p>
+                <p><span class="repP">Język: </span>2D Dubbing</p>
+                <p><span class="repP">Data premiery: </span>3.11.2022</p>
+                <p><span class="repP">Gatunek: </span> Familijny, Komedia, Przygodowy </p>
+                <p><span class="repP">Dostępne godziny:</span></p>
+                <div class="avaibility">
+                    <div class="buttonDate" onclick="filmValues('wielkiKrokodyl', 'Czw. 3.11.2022, godz. 11:45')"><a href="#"><p>11:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('wielkiKrokodyl', 'Czw. 3.11.2022, godz. 14:00')"><a href="#"><p>14:00</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('wielkiKrokodyl', 'Czw. 3.11.2022, godz. 16:15')"><a href="#"><p>16:15</p></a></div>
+                </div>
+            </div>
+            <p class="lineS"></p>
+        </div>
 
         <div class="repertuarDiv friday">
             <div class="wrapper">
                 <img src="assets/films/egzorcyzmy_maly.png">
-                <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
+                <div class="overlay"><div class="cont"><a href="articles/egzorcyzmy.html">O filmie</a></div></div>
             </div>
             <div class="repertuarText">
                 <h2>Egzorcyzmy Siostry Ann
@@ -180,10 +241,10 @@
             <p class="lineS"></p>
         </div>
 
-        <div class="repertuarDiv friday">
+        <div class="repertuarDiv saturday">
             <div class="wrapper">
                 <img src="assets/films/samuraj_maly.png">
-                <div class="overlay"><div class="cont"><a>O filmie</a></div></div>
+                <div class="overlay"><div class="cont"><a href="articles/samuraj.html">O filmie</a></div></div>
             </div>
             <div class="repertuarText">
                 <h2>Jak zostałem samurajem
@@ -191,20 +252,43 @@
                 </h2>
                 <p>Hank marzy o zostaniu samurajem, dlatego wybiera się na zamieszkaną tylko przez koty wyspę, by tam odbyć szkolenie.</p>
                 <p><span class="repP">Język: </span>2D Napisy</p>
-                <p><span class="repP">Data premiery: </span>4.11.2022</p>
+                <p><span class="repP">Data premiery: </span>5.11.2022</p>
                 <p><span class="repP">Gatunek: </span>Animacja, Akcja, Fantasy, Sztuki walki</p>
                 <p><span class="repP">Dostępne godziny:</span></p>
                 <div class="avaibility">
-                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 4.11.2022, godz. 12:45')"><a href="#"><p>12:45</p></a></div>
-                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 4.11.2022, godz. 15:30')"><a href="#"><p>15:30</p></a></div>
-                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 4.11.2022, godz. 18:20')"><a href="#"><p>18:20</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 5.11.2022, godz. 12:45')"><a href="#"><p>12:45</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 5.11.2022, godz. 15:30')"><a href="#"><p>15:30</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('samuraj', 'Pt. 5.11.2022, godz. 18:20')"><a href="#"><p>18:20</p></a></div>
+                </div>
+            </div>
+            <p class="lineS"></p>
+        </div>
+
+        <div class="repertuarDiv sunday">
+            <div class="wrapper">
+                <img src="assets/films/DzikaNoc.png">
+                <div class="overlay"><div class="cont"><a href="articles/dzika.html">O filmie</a></div></div>
+            </div>
+            <div class="repertuarText">
+                <h2>Dzika Noc
+                    <p>(3D NAPISY)</p>
+                </h2>
+                <p>Kiedy pewna, bogata rodzina zostaje zakładnikami w Wigilię, przestępcy nie są przygotowani na niespodziewanego bojownika. Święty ...</p>
+                <p><span class="repP">Język: </span>3D Napisy</p>
+                <p><span class="repP">Data premiery: </span>6.11.2022</p>
+                <p><span class="repP">Gatunek: </span> Akcja, Sztuki walki, Świąteczne </p>
+                <p><span class="repP">Dostępne godziny:</span></p>
+                <div class="avaibility">
+                    <div class="buttonDate" onclick="filmValues('dzikaNoc', 'Nd. 6.11.2022, godz. 18:20')"><a href="#"><p>18:20</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dzikaNoc', 'Nd. 6.11.2022, godz. 19:30')"><a href="#"><p>19:30</p></a></div>
+                    <div class="buttonDate" onclick="filmValues('dzikaNoc', 'Nd. 6.11.2022, godz. 21:45')"><a href="#"><p>21:45</p></a></div>
                 </div>
             </div>
             <p class="lineS"></p>
         </div>
 
     </div>
-
+</main>
     <div class="footerPartners">
 
         <div class="partnersDiv">

@@ -1,0 +1,177 @@
+.contentText
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    width: 65%;
+    margin: 0;
+}
+
+#main
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    margin-top: 0px;
+}
+
+
+h1
+{
+    margin-left: 10px;
+    font-size: 40px;
+}
+.contentText p
+{
+    width: auto;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.contentText h1
+{
+    text-align: left;
+}
+
+.banner
+{
+    width: 100%;
+    background-color: #050505;
+}
+
+iframe
+{
+    margin-bottom: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    box-shadow: inset 0 0 5em 1em #000;
+}
+
+.bottomText {
+    position: absolute;
+    text-align: left;
+    bottom: 500px;
+    left: 0px;
+    height: 50px;
+    font-size: 40px;
+    margin: 40px;
+    /*background-color: #050505;*/
+    width: 100%;
+}
+.title {
+    margin-left: 10px;
+}
+
+.button
+{
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 32px;
+}
+
+@media (max-width:1600px) {
+    h1
+    {
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    h2
+    {
+        font-size: 24px;
+    }
+    .contentText p
+    {
+        width: auto;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .bottomText {
+        position: absolute;
+        text-align: left;
+        bottom: 250px;
+        left: 0px;
+        height: 50px;
+        font-size: 24px;
+        margin: 40px;
+        width: 100%;
+    }
+    .title {
+        margin-left: 10px;
+    }
+    .button
+    {
+        width: 170px;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+}
+
+.element
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    background-color: #D08831;
+    margin: 20px;
+    width: 100px;
+}
+
+h4
+{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.info
+{
+    margin-bottom: 100px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.line
+{
+    margin-left: 10px;
+}
+
+
+
